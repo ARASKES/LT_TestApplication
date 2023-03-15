@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">LT_TestApplication</string>
+
+    <!--    TextViews.-->
+    <string name="textview_log_in">Вход в аккаунт</string>
+    <string name="textview_phone">Телефон</string>
+    <string name="textview_password">Пароль</string>
+    <string name="textview_favorites">Здесь будут отображаться избранные статьи</string>
+    <string name="textview_account">Здесь будут отображаться данные вашего аккаунта</string>
+
+    <!--    Buttons.-->
+    <string name="bottom_nav_home">Главная</string>
+    <string name="bottom_nav_favorites">Избранное</string>
+    <string name="bottom_nav_account">Аккаунт</string>
+
+    <!--    Bottom navigation view.-->
+    <string name="button_login">Войти</string>
+    <string name="button_refresh">Обновить</string>
+    <string name="button_add_to_favorites">Добавить в избранное</string>
+    <string name="button_share">Поделиться</string>
+
+    <string name="title_sorting">Сортировка</string>
+    <string name="title_sorting_default">По умолчанию</string>
+    <string name="title_sorting_date">По дате</string>
+    <string name="recyclerview_empty">Новости отсутствуют…</string>
+
+    <!--    Content descriptions.-->
+    <string name="desc_button_close">Закрыть</string>
+    <string name="desc_news_thumbnail">Иллюстрация к статье</string>
 </resources>

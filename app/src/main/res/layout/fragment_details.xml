@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textview_date"
+            style="@style/Theme.LT_TestApplication.Body14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="05 декабря, 19:40"
+            android:textColor="@color/gray"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textview_title"
+            style="@style/Theme.LT_TestApplication.Headline18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Отчёт Лаборатории реактивного движения (JPL)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_date" />
+
+        <ImageView
+            android:id="@+id/imageview_media"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/desc_news_thumbnail"
+            android:src="@drawable/ic_button_favorite"
+            app:actualImageScaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_title" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView_content"
+            style="@style/Theme.LT_TestApplication.Body16"
+            android:layout_width="match_parent"
+            android:layout_marginTop="32dp"
+            android:text="В отчёте по исследованию космического аппарата «Новые Горизонты» (New Horizons), запущенном NASA в январе 2006 года.
+На борту аппарата находится телескоп имени Хаббла, который будет исследовать Плутон и его спутники.
+В отчёте говорится, что за время полёта аппарата на орбите Плутона была обнаружена атмосфера с высоким содержанием метана и азотного ангидрида.
+Это открытие подтверждает гипотезу, согласно которой на Плутоне есть лёд, но не объясняет, каким образом он там оказался."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageview_media" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
